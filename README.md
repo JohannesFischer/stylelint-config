@@ -1,4 +1,4 @@
-# CSS Style Guide
+# Stylelint Config
 
 ## Colors
 
@@ -149,7 +149,7 @@ a {
 
 ## Functions
 
-...
+Skipped for now: http://stylelint.io/user-guide/rules/#function
 
 ## Numbers
 
@@ -261,7 +261,6 @@ a[id="foo"] {
 
 ### Length Zero No Unit
 
-
 Disallow units for zero lengths.
 
 [Rule](http://stylelint.io/user-guide/rules/length-zero-no-unit/)
@@ -274,6 +273,7 @@ __Example__
 
 ```
 // Bad
+
 a {
   top: 0px;
 }
@@ -635,7 +635,8 @@ a {
 
 Blacklist of disallowed property and value pairs within declarations.
 
-...
+* __Border:__ Disallow the use of the word none for borders, use 0 instead
+* __Transition:__ Disallow the use of all within transitions.
 
 [Rule](http://stylelint.io/user-guide/rules/declaration-property-value-blacklist/)
 
@@ -645,9 +646,6 @@ Blacklist of disallowed property and value pairs within declarations.
   "transition": ["all"]
 }
 ```
-
-* __Border:__ Disallow the use of the word none for borders, use 0 instead
-* __Transition:__ Disallow the use of all within transitions.
 
 __Example__
 
@@ -1089,8 +1087,8 @@ a{
 }
 
 // Good
+a {
 
-a{
   color: #f0f;
 }
 ```
@@ -1254,7 +1252,7 @@ __Example__
 
 ### No Vendor Prefix
 
-Disallow vendor prefixes for selectors, prefer using Autoprefixer.
+Disallow vendor prefixes for selectors, prefer using autoprefixer.
 
 [Rule](http://stylelint.io/user-guide/rules/selector-no-vendor-prefix/)
 
