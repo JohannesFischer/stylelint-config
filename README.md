@@ -16,7 +16,7 @@ __Example__
 
 ```
 // Bad
-
+trans
 a {
   color: #FFF;
 }
@@ -643,7 +643,7 @@ Blacklist of disallowed property and value pairs within declarations.
 ```
 "declaration-property-value-blacklist": {
   "border": ["none"],
-  "transition": ["all"]
+  "transition": [/all/]
 }
 ```
 
