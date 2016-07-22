@@ -16,7 +16,7 @@ __Example__
 
 ```
 // Bad
-trans
+
 a {
   color: #FFF;
 }
