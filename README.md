@@ -1729,22 +1729,19 @@ __Example__
 
 @media print {
 a {
-background-position: top left;
-top right;
+top: 10px;
 }
 }
 
 @media print {
 a {
-  background-position: top left;
-    top right;
+  top: 10px;
   }
 }
 
 @media print {
     a {
-      background-position: top left;
-      top right;
+      top: 10px;
     }
 }
 
@@ -1752,8 +1749,7 @@ a {
 
 @media print {
   a {
-    background-position: top left;
-    top right;
+    top: 10px;
   }
 }
 ```
