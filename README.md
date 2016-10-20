@@ -1477,6 +1477,7 @@ Disallow missing punctuation for non-boolean media features.
 
 __Example__
 ```
+// Bad
 
 @media (max-width 600px) {
   a {
@@ -1490,7 +1491,7 @@ __Example__
   }
 }
 
-// Goode
+// Good
 
 @media (max-width: 600px) {
   a {
