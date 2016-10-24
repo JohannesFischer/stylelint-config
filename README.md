@@ -1400,7 +1400,9 @@ If the rule is the very first node in a stylesheet then it is ignored.
 [Rule](http://stylelint.io/user-guide/rules/rule-non-nested-empty-line-before/)
 
 ```
-"rule-non-nested-empty-line-before": "always"
+"rule-non-nested-empty-line-before": ["always", {
+  "except": ["after-single-line-comment"],
+}]
 ```
 
 __Example__
@@ -1422,6 +1424,11 @@ a {
 }
 b {
   color: #000;
+}
+
+/* Comments will be ignored */
+a {
+ text-decoration: none;
 }
 ```
 
