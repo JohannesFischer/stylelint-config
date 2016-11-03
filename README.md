@@ -796,6 +796,8 @@ Avoid shorthand properties that override related longhand properties.
 __Example__
 
 ```
+// Bad
+
 a {
   padding-left: 10px;
   padding: 20px;
@@ -1263,6 +1265,8 @@ Disallow vendor prefixes for selectors, prefer using autoprefixer.
 __Example__
 
 ```
+// Bad
+
 input::-moz-placeholder {
   color: eee;
 }
@@ -1295,6 +1299,8 @@ Pseudo-class selectors must be written in lowercase.
 __Example__
 
 ```
+// Bad
+
 a:Hover
 b:hOvEr,
 em:HOVER {
@@ -1400,9 +1406,7 @@ If the rule is the very first node in a stylesheet then it is ignored.
 [Rule](http://stylelint.io/user-guide/rules/rule-non-nested-empty-line-before/)
 
 ```
-"rule-non-nested-empty-line-before": ["always", {
-  "except": ["after-single-line-comment"],
-}]
+"rule-non-nested-empty-line-before": "always"
 ```
 
 __Example__
@@ -1425,11 +1429,6 @@ a {
 
 b {
   color: #000;
-}
-
-/* Comments will be ignored */
-a {
- text-decoration: none;
 }
 ```
 
