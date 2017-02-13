@@ -1,6 +1,6 @@
 {
-  "name": "css-style-guide",
-  "version": "0.0.1",
+  "name": "stylelint-config",
+  "version": "0.1.0",
   "description": "My idea of how CSS should be written.",
   "main": ".stylelintrc",
   "scripts": {
@@ -10,5 +10,22 @@
   "license": "MIT",
   "devDependencies": {
     "stylelint": "^7.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "stylelint": "^7.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohannesFischer/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "bugs": {
+    "url": "https://github.com/JohannesFischer/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/JohannesFischer/stylelint-config#readme"
 }
