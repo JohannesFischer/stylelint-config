@@ -17,10 +17,7 @@
   "dependencies": {
     "stylelint": "^7.7.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JohannesFischer/stylelint-config.git"
-  },
+  "repository": "git+https://github.com/JohannesFischer/stylelint-config.git",
   "keywords": [
     "stylelint"
   ],
