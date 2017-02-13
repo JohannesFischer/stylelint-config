@@ -9,7 +9,7 @@
   "author": "Johannes Fischer",
   "license": "MIT",
   "devDependencies": {
-    "stylelint": "^7.0.2"
+    "stylelint": "^7.7.1"
   },
   "directories": {
     "test": "test"

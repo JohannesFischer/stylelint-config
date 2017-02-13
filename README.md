@@ -1,5 +1,7 @@
 # Stylelint Config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JohannesFischer/stylelint-config.svg)](https://greenkeeper.io/)
+
 ## Colors
 
 ### Color Hex Case
