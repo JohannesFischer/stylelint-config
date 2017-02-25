@@ -16,7 +16,7 @@ Specify hex colors in lowercase.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -46,7 +46,7 @@ Specify short notation for hex colors.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -85,7 +85,7 @@ Colors must never be named.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -127,7 +127,7 @@ Disallow invalid hex colors.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -167,7 +167,7 @@ There must never be a leading zero.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -201,7 +201,7 @@ Numbers must have no trailing zeros.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -237,7 +237,7 @@ Strings must always be wrapped with double quotes.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -273,7 +273,7 @@ Disallow units for zero lengths.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -305,7 +305,7 @@ Specify units in lowercase.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -345,7 +345,7 @@ Specify keyword values in lowercase.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -375,7 +375,7 @@ Avoid vendor prefixes for values and use autoprefixer instead.
 
 __Example__
 
-```
+```css
 // Bad
 
 .foo {
@@ -421,7 +421,7 @@ Value lists must always have a single space after the commas and be written in a
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -463,7 +463,7 @@ Shorthand properties must not have redundant values.
 
 __Example__
 
-```
+```css
 // Bad
 
 .foo {
@@ -515,7 +515,7 @@ Properties must be specified in lowercase.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -549,7 +549,7 @@ Properties must be specified without vendor prefixes, use autoprefixer instead
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -611,7 +611,7 @@ There must always be a single space after the colon but not before.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -651,7 +651,7 @@ Blacklist of disallowed property and value pairs within declarations.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -684,7 +684,7 @@ Consecutive duplicated properties can be used , they can prove to be useful fall
 
 __Example__
 
-```
+```css
 // Bad
 
 p {
@@ -714,7 +714,7 @@ Avoid property values that are ignored due to another property value in the same
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -797,7 +797,7 @@ Avoid shorthand properties that override related longhand properties.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -845,7 +845,7 @@ Prefixed properties must always be alphabetically ordered.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -890,7 +890,7 @@ Require a newline and disallow whitespace after but never before the semicolons 
 
 __Example__
 
-```
+```css
 // Bad
 
 a { color: pink; top: 0; }
@@ -925,7 +925,7 @@ There must always be a trailing semicolon.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -968,7 +968,7 @@ Require a newline before and after the closing brace of blocks.
 
 __Example__
 
-```
+```css
 // Bad
 
 a { color: pink; } b { color: red; }
@@ -994,7 +994,7 @@ Disallow empty blocks.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {}
@@ -1028,7 +1028,7 @@ Disallow single-line blocks.
 
 __Example__
 
-```
+```css
 // Bad
 
 a,
@@ -1083,7 +1083,7 @@ Require a single space before the opening brace of blocks.
 
 __Example__
 
-```
+```css
 // Bad
 
 a{
@@ -1113,7 +1113,7 @@ Require a single before and after the combinators of selectors.
 
 __Example__
 
-```
+```css
 // Bad
 
 a +b {
@@ -1154,7 +1154,7 @@ This rule resolves nested selectors before calculating the specificity of a sele
 ```
 __Example__
 
-```
+```css
 // Bad
 
 #id {
@@ -1222,7 +1222,7 @@ Disallow id selectors.
 
 __Example__
 
-```
+```css
 // Bad
 
 #foo {
@@ -1242,7 +1242,7 @@ Disallow the universal selector.
 
 __Example__
 
-```
+```css
 // Bad
 
 * {
@@ -1266,7 +1266,7 @@ Disallow vendor prefixes for selectors, prefer using autoprefixer.
 
 __Example__
 
-```
+```css
 // Bad
 
 input::-moz-placeholder {
@@ -1300,7 +1300,7 @@ Pseudo-class selectors must be written in lowercase.
 
 __Example__
 
-```
+```css
 // Bad
 
 a:Hover
@@ -1332,7 +1332,7 @@ Require a newline after the commas of selector lists but never before.
 
 __Example__
 
-```
+```css
 // Bad
 
 a,b {
@@ -1369,7 +1369,7 @@ There must always be an empty line before rules. First nested selectors and sele
 
 __Example__
 
-```
+```css
 // Bad
 
 div {
@@ -1413,7 +1413,7 @@ If the rule is the very first node in a stylesheet then it is ignored.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -1450,7 +1450,7 @@ Require a single space after but never before the colon in media features.
 
 __Example__
 
-```
+```css
 // Bad
 
 @media (min-width:600px) {
@@ -1529,7 +1529,7 @@ Require a single space before and after the range operator in media features.
 
 __Example__
 
-```
+```css
 // Bad
 
 @media (max-width>=600px) {
@@ -1573,7 +1573,7 @@ If the at-rule is the very first node in a stylesheet then it is ignored.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -1610,7 +1610,7 @@ At-rules names must be in lowercase.
 
 __Example__
 
-```
+```css
 // Bad
 
 @Charset 'UTF-8';
@@ -1644,7 +1644,7 @@ Require a single space after at-rule names.
 
 __Example__
 
-```
+```css
 // Bad
 
 @charset"UTF-8";
@@ -1697,7 +1697,7 @@ Any number of asterisks are allowed at the beginning or end of the comment. So `
 
 __Example__
 
-```
+```css
 // Bad
 
 /*comment*/
@@ -1734,7 +1734,7 @@ Always indent at-rules, rules, comments, declarations, inside parentheses and mu
 
 __Example__
 
-```
+```css
 // Bad
 
 @media print {
@@ -1776,7 +1776,7 @@ Limit the number of adjacent empty lines to one.
 
 __Example__
 
-```
+```css
 // Bad
 
 a {
@@ -1866,7 +1866,7 @@ Disallow duplicate selectors within a stylesheet.
 
 __Example__
 
-```
+```css
 // Bad
 
 .foo,
@@ -1931,7 +1931,7 @@ Disallow end-of-line whitespace.
 
 __Example__
 
-```
+```css
 a {
   color: #f00;
 }·
@@ -1956,7 +1956,7 @@ Disallow extra semicolons.
 
 __Example__
 
-```
+```css
 // Bad
 
 @import "x.css";
@@ -1979,7 +1979,7 @@ Disallow missing end-of-source newlines.
 
 __Example__
 
-```
+```css
 //Good
 
 a { color: pink; }
