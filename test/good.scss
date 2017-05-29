@@ -1,6 +1,5 @@
 $color-hex-case: #fff;
 $color-hex-length: #aaa;
-$color-hex-length-alpha: #fffa;
 $color-named: #f00;
 
 .number-leading-zero {
@@ -258,22 +257,7 @@ $color-named: #f00;
     }
   }
 
-  @media (width >= 20em) {
-    a {
-      color: #fff;
-    }
-  }
-}
-
-.media-feature-range-operator-space-after,
-.media-feature-range-operator-space-before {
-  @media (max-width >= 600px) {
-    a {
-      color: #fff;
-    }
-  }
-  // First nested selectors and slectors after comments will be ignored
-  @media (max-width >= 600px) {
+  @media (min-width: 20em) {
     a {
       color: #fff;
     }
@@ -284,7 +268,7 @@ $color-named: #f00;
   a {
     color: #fff;
 
-    @media (max-width >= 600px) {
+    @media (max-width: 600px) {
       color: #000;
     }
   }
@@ -296,8 +280,6 @@ $color-named: #f00;
 @import "b.css";
 
 .at-rule-name-case {
-  @charset "UTF-8";
-
   @media (min-width: 50em) {
     a {
       color: #fff;
@@ -312,8 +294,6 @@ $color-named: #f00;
 }
 
 .at-rule-name-space-after {
-  @charset "UTF-8";
-
   @media (min-width: 700px) {
     a {
       color: #fff;
@@ -329,6 +309,8 @@ $color-named: #f00;
   /**
    * comment
    */
+
+  padding: 3px;
 }
 
 .indentation {

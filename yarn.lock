@@ -605,7 +605,7 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
-lodash@^4.0.0, lodash@^4.1.0:
+lodash@^4.0.0, lodash@^4.1.0, lodash@^4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -1057,9 +1057,9 @@ stylehacks@^2.3.0:
     text-table "^0.2.0"
     write-file-stdout "0.0.2"
 
-stylelint@^7.7.1:
-  version "7.8.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.8.0.tgz#ac701044ed03c44f7a9f73d4d5dc1bd1eaae12d1"
+stylelint@^7.9.0:
+  version "7.9.0"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-7.9.0.tgz#b8d9ea20f887ab351075c6aded9528de24509327"
   dependencies:
     autoprefixer "^6.0.0"
     balanced-match "^0.4.0"
@@ -1074,7 +1074,7 @@ stylelint@^7.7.1:
     html-tags "^1.1.1"
     ignore "^3.2.0"
     known-css-properties "^0.0.6"
-    lodash "^4.0.0"
+    lodash "^4.17.4"
     log-symbols "^1.0.2"
     meow "^3.3.0"
     micromatch "^2.3.11"
