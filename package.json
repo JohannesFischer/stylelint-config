@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-default",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "My idea of how CSS should be written.",
   "main": ".stylelintrc",
   "scripts": {
@@ -12,7 +12,7 @@
     "test": "test"
   },
   "dependencies": {
-    "stylelint": "^7.10.1",
+    "stylelint": "^7.11.1",
     "stylelint-order": "^0.4.4"
   },
   "repository": "git+https://github.com/JohannesFischer/stylelint-config.git",
