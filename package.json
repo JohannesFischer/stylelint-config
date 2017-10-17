@@ -1,10 +1,10 @@
 {
   "name": "stylelint-config-default",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "My idea of how CSS should be written.",
   "main": ".stylelintrc",
   "scripts": {
-    "stylelint": "stylelint \"test/good.scss\""
+    "test": "stylelint \"test/good.scss\""
   },
   "author": "Johannes Fischer",
   "license": "MIT",
@@ -12,8 +12,8 @@
     "test": "test"
   },
   "dependencies": {
-    "stylelint": "^7.11.1",
-    "stylelint-order": "^0.4.4"
+    "stylelint": "^8.2.0",
+    "stylelint-order": "^0.7.0"
   },
   "repository": "git+https://github.com/JohannesFischer/stylelint-config.git",
   "keywords": [

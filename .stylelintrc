@@ -46,8 +46,6 @@
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
     "selector-max-specificity": "0,4,0",
-    "selector-no-id": true,
-    "selector-no-universal": true,
     "selector-no-vendor-prefix": true,
     "selector-pseudo-class-case": "lower",
     "selector-list-comma-newline-after": "always",
@@ -56,10 +54,6 @@
     "media-feature-colon-space-before": "never",
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "always",
-    "rule-empty-line-before": ["always", {
-      "except": ["after-single-line-comment", "first-nested"],
-      "ignore" : ["after-comment"]
-    }],
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always",
     "comment-whitespace-inside": "always",
